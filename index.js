@@ -3,6 +3,7 @@ import inquirer from "inquirer";
 // 2) user input for guessing a number - Done 
 // 3) compare user input with copmuter generated number and show result - Done 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
+console.log("welcome to number  guessing game ");
 const answers = await inquirer.prompt([
     {
         name: "userGussedNumber",
